@@ -1,0 +1,147 @@
+Body {
+  font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
+#hero {
+  background-image: url("images/header-background.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+#testimonial {
+  background-image: url("images/testimonials-background.jpg");
+  background-position: center;
+}
+
+#logo {
+  width: 7.5rem;
+}
+
+#best-value{
+  overflow: hidden !important;
+}
+#best-value-tag{
+  top: 1rem;
+  right: -3rem;
+  transform: rotateZ(45deg);
+}
+
+.custom-color{
+  color: #00bfdb !important;
+}
+.custom-bg-color{
+  background-color: #00bfdb !important;
+}
+
+.icon {
+  font-size: 0.75rem;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.my-xl{
+  margin: 8vh auto !important;
+}
+
+.py-md-xl{
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.btn-rounded{
+  border-radius: 40px;
+}
+
+.w-45{
+  width: 45%;
+}
+.w-40{
+  width: 40%;
+}
+
+.my-card{
+  width: 30%;
+  border: 2px solid rgb(220, 220, 220) !important;
+  border-radius: 10px;
+}
+
+.my-price{
+  font-size: 3rem !important;
+}
+
+.pricing-btn{
+  bottom: -1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.form-down-arrow{
+  right: 5%;
+  top: 40%;
+  vertical-align: middle;
+}
+
+.fa-circle{
+  opacity: 0.5;
+  top: 43%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 6rem;
+}
+
+.fa-circle-play{
+  top: 45.5%;
+  right: 47.25%;
+  margin: 0 auto;
+  font-size: 4rem;
+}
+
+.contact{
+  background-image: url("images/contact-background.jpg");
+}
+
+.small-icon{
+  font-size: 0.5rem;
+}
+
+.large-icon{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+.large-icon i{
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 992px) {
+  .price {
+    width: 75%;
+    margin: 2rem auto;
+  }
+  .fa-circle-play{
+    top: 46.5%;
+    right: 45.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    box-shadow: 0 1px 5px lightgrey;
+  }
+  .py-md-xl{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+  .my-card{
+    width: 100%;
+    margin: 2rem auto;
+  }
+  #hero{
+    background: none;
+    text-align: center;
+  }
+}
